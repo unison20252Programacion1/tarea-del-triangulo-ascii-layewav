@@ -8,7 +8,7 @@ def triangulo_simetrico(m: int, s: str) -> str:
         # TODO: implementar la lógica para generar el triángulo simétrico en ASCII
         #Parte 1: Triángulo Creciente
     for i in range(1, m +1):
-        print(s*i)
+        print(s * i)
         #Parte 2: Triángulo Decreciente
-    for i in range(m -1, 0, -1):
-        print(s*i)
+    for i in range(m - 1, 0, -1):
+        print(s * i)
